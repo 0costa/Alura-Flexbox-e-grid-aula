@@ -1,0 +1,1 @@
+O Objetivo deste repositorio é praticar as habilidades desenvolvidas em flexbox, grid e mobile first através da alura.
