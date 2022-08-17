@@ -38,7 +38,17 @@ body{
     background-color: #15191c;
     width: 75vw;
     height: 100vh;
+    position: absolute;
+    left: -100vh;
+    transition: .25s;
 }
+
+.menu-lateral--ativo{
+    left: 0;
+    transition: .25s;
+
+}
+
 
 .menu-lateral__logo{
     width: 118px;
@@ -61,6 +71,7 @@ body{
 }
 
 .menu-lateral__link::before{
+    content: "\e900";
     width: 24px;
     height: 24px;
     font-size: 24px;
